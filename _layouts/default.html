@@ -59,7 +59,13 @@
 				  </ul>
 				{% endif %}
 				<ul class="nav navbar-nav navbar-right">
-					<li><a href="log/">Changelog</a></li>
+					<li><a href=
+						{% if page.title == "Home" %}
+							"log/"
+						{% else %}
+							"../log/"
+						{% endif %}
+					>Changelog</a></li>
 					<li><a href="docs/">Documentation</a></li>
 					<li><a href="code/">Code</a></li>
 				</ul>

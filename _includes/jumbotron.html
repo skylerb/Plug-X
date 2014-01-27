@@ -6,11 +6,3 @@
 	<p><a onclick="chrome.webstore.install()" class="btn btn-primary btn-lg" role="button" id="install-button">Download for Chrome &raquo;</a></p>
   </div>
 </div>
-
-<script>
-	$( document ).ready(function() {
-		if (chrome.app.isInstalled) {
-			document.getElementById('install-button').style.display = 'none';
-		}
-	});
-</script>

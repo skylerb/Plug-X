@@ -8,7 +8,9 @@
 </div>
 
 <script>
-	if (chrome.app.isInstalled) {
-	  document.getElementById('install-button').style.display = 'none';
-	}
+	$( document ).ready(function() {
+		if (chrome.app.isInstalled) {
+			document.getElementById('install-button').style.display = 'none';
+		}
+	});
 </script>

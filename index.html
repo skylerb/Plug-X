@@ -1,141 +1,62 @@
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="">
-    <meta name="author" content="">
-    <link rel="shortcut icon" href="favicon.png">
+---
+layout: default
+title: Home
+---
 
-    <title>Plug X</title>
-
-    <!-- Bootstrap core CSS -->
-    <link href="css/bootstrap.css" rel="stylesheet">
-
-    <!-- Custom styles for this template -->
-    <link href="css/jumbotron.css" rel="stylesheet">
-
-    <!-- Just for debugging purposes. Don't actually copy this line! -->
-    <!--[if lt IE 9]><script src="../../docs-assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
-
-    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
-    <!--[if lt IE 9]>
-      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-      <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
-    <![endif]-->
-  </head>
-
-  <body>
-
-    <!-- Fixed navbar -->
-    <div class="navbar navbar-default navbar-fixed-top" role="navigation">
-      <div class="container">
-        <div class="navbar-header">
-          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-            <span class="sr-only">Toggle navigation</span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-          </button>
-          <a class="navbar-brand" href="http://skylerbeckman.com/Plug-X">Plug X</a>
-        </div>
-        <div class="navbar-collapse collapse">
-          <ul class="nav navbar-nav">
-            <li><a href="#install">Installation</a></li>
-            <li><a href="#tips">Tips & Tricks</a></li>
-            <li><a href="#upcoming">Roadmap</a></li>
-			<li><a href="#credits">Credits</a></li>
-          </ul>
-          <ul class="nav navbar-nav navbar-right">
-			<li><a href="../log">Changelog</a></li>
-            <li><a href="../docs">Documentation</a></li>
-            <li><a href="../code">Code</a></li>
-          </ul>
-        </div><!--/.nav-collapse -->
-      </div>
-    </div>
-
-    <!-- Main jumbotron for a primary marketing message or call to action -->
-    <div class="jumbotron">
-      <div class="container">
-        <h1>Advanced features for Plud.DJ!</h1>
-        <p>Seamless integration allows you to supercharge Plug.DJ without scratching your head. Plug X offers the most features out of any extension on the market. Oh yeah, it's free too!</p>
-        <p><a class="btn btn-primary btn-lg" role="button">Download for Chrome &raquo;</a></p>
-      </div>
-    </div>
-
-    <div class="container">
-      <!-- Example row of columns -->
-      <div class="row">
-        <div class="col-md-8">
-          <h2>Installation</h2>
-          <p>Installing Plug X couldn't be any simpler. Just click on the download button up top or visit the <a href="https://chrome.google.com/webstore/detail/plug-x/effeahbhlcfhmgljedehdfjpkgmachjg" target="_blank">Chrome Store</a> page to download.</p>
-		  <h2>Tips & Tricks</h2>
-		  <p>Plug X has commands built in that let you access a plethora of features. To view the list of commands, type:</p>
-		  <pre>/commands</pre>
-		  <p><b>Automuting</b> songs is an unique feature of Plug X, but is only accessible through commands at the moment.</p>
-		  <p>To automute the current song, type:</p>
-		  <pre>/automute</pre>
-		  <p>To remove the current song from your automuted list, type:</p>
-		  <pre>/removemute</pre>
-		  <p>A quick way to check which version of the extension you have is with the command:</p>
-		  <pre>/version</pre>
-		  <h2>Planned Features</h2>
-		  <p>What I plan on adding in the not too distant future.</p>
-		  <p><b>Autojoin</b> - Have the ability to automatically join the waitlist without having to click the button</p>
-		  <p><b>Custom Colors</b> - Customize the color of nearly any item on the page</p>
-		  <h2>Credits</h2>
-		  <p>This extension has evolved greatly since its initial release. I went back and rewrote the entire extension from the ground up to improve usability, performance, and integration.</p>
-		  <p>Plug X currently uses a handful of frameworks:</p>
-		  <ul>
-			<li><a href="http://requirejs.org/" target="_blank">RequireJS</a></li>
-			<li><a href="http://backbonejs.org/" target="_blank">Backbone</a></li>
-			<li><a href="http://jquery.com/" target="_blank">jQuery</a></li>
-			<li><a href="http://handlebarsjs.com/" target="_blank">Handlebars</a></li>
-			<li><a href="http://underscorejs.org/" target="_blank">Underscore</a></li>
-		  </ul>
-        </div>
-        <div class="col-md-4">
-			<h2>Features</h2>
-			<ul>
-				<li>AutoWoot</li>
-				<li>AFK Timers</li>
-				<li>Video Visibility</li>
-				<li>Upload Custom Backgrounds</li>
-				<li>Video Size</li>
-				<li>Working Mention Sound</li>
-				<li>Custom Mention Keywords</li>
-				<li>Inline Chat Images</li>
-				<li>Favorite Rooms</li>
-				<li>In-Room Favorites List</li>
-				<li>'Unable to Play' Popup Blocker</li>
-				<li>Enhanced UI</li>
-				<li>Custom Commands</li>
-				<li>New Song Notification</li>
-				<li>Chat Emoji Suggestions</li>
-				<li>Homepage Favorites List</li>
-				<li>Replayed Song Alert</li>
-				<li>Automute Songs</li>
-				<li>Custom Mention Sound</li>
-				<li>AFK Autorespond Message</li>
-				<li>Video Opacity</li>
-			</ul>
-        </div>
-      </div>
-
-      <hr>
-
-      <footer>
-        <p>&copy; 2013-14 <a href="http://skylerbeckman.com" target="_blank">Skyler Beckman</a></p>
-      </footer>
-    </div> <!-- /container -->
-
-
-    <!-- Bootstrap core JavaScript
-    ================================================== -->
-    <!-- Placed at the end of the document so the pages load faster -->
-    <script src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
-    <script src="js/bootstrap.min.js"></script>
-  </body>
-</html>
+<!-- Example row of columns -->
+<div class="row">
+<div class="col-md-8">
+  <h2>Installation</h2>
+  <p>Installing Plug X couldn't be any simpler. Just click on the download button up top or visit the <a href="https://chrome.google.com/webstore/detail/plug-x/effeahbhlcfhmgljedehdfjpkgmachjg" target="_blank">Chrome Store</a> page to download.</p>
+  <h2>Tips & Tricks</h2>
+  <p>Plug X has commands built in that let you access a plethora of features. To view the list of commands, type:</p>
+  <pre>/commands</pre>
+  <p><b>Automuting</b> songs is an unique feature of Plug X, but is only accessible through commands at the moment.</p>
+  <p>To automute the current song, type:</p>
+  <pre>/automute</pre>
+  <p>To remove the current song from your automuted list, type:</p>
+  <pre>/removemute</pre>
+  <p>A quick way to check which version of the extension you have is with the command:</p>
+  <pre>/version</pre>
+  <h2>Planned Features</h2>
+  <p>What I plan on adding in the not too distant future.</p>
+  <p><b>Autojoin</b> - Have the ability to automatically join the waitlist without having to click the button</p>
+  <p><b>Custom Colors</b> - Customize the color of nearly any item on the page</p>
+  <h2>Credits</h2>
+  <p>This extension has evolved greatly since its initial release. I went back and rewrote the entire extension from the ground up to improve usability, performance, and integration.</p>
+  <p>Plug X currently uses a handful of frameworks:</p>
+  <ul>
+	<li><a href="http://requirejs.org/" target="_blank">RequireJS</a></li>
+	<li><a href="http://backbonejs.org/" target="_blank">Backbone</a></li>
+	<li><a href="http://jquery.com/" target="_blank">jQuery</a></li>
+	<li><a href="http://handlebarsjs.com/" target="_blank">Handlebars</a></li>
+	<li><a href="http://underscorejs.org/" target="_blank">Underscore</a></li>
+  </ul>
+</div>
+<div class="col-md-4">
+	<h2>Features</h2>
+	<ul>
+		<li>AutoWoot</li>
+		<li>AFK Timers</li>
+		<li>Video Visibility</li>
+		<li>Upload Custom Backgrounds</li>
+		<li>Video Size</li>
+		<li>Working Mention Sound</li>
+		<li>Custom Mention Keywords</li>
+		<li>Inline Chat Images</li>
+		<li>Favorite Rooms</li>
+		<li>In-Room Favorites List</li>
+		<li>'Unable to Play' Popup Blocker</li>
+		<li>Enhanced UI</li>
+		<li>Custom Commands</li>
+		<li>New Song Notification</li>
+		<li>Chat Emoji Suggestions</li>
+		<li>Homepage Favorites List</li>
+		<li>Replayed Song Alert</li>
+		<li>Automute Songs</li>
+		<li>Custom Mention Sound</li>
+		<li>AFK Autorespond Message</li>
+		<li>Video Opacity</li>
+	</ul>
+</div>
+</div>

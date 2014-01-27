@@ -1,0 +1,4 @@
+name: Plug X
+markdown: redcarpet
+pygments: true
+permalink: /log/:title/

@@ -63,7 +63,9 @@
 		  </div>
 		</div>
 		
-		{% include jumbotron.html %}	
+		{% if page.title == "Home" %}
+			{% include jumbotron.html %}	
+		{% endif %}
 		
 		<div class="container">		
 			{{ content }}

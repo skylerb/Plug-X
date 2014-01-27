@@ -11,7 +11,14 @@
 		<title>Plug X</title>
 
 		<!-- Bootstrap core CSS -->
-		<link href="css/bootstrap.css" rel="stylesheet">
+		<link rel="stylesheet" href=
+			{% if page.title == "Hhome" %}
+            "css/bootstrap.css"
+          {% else %}
+            "../css/bootstrap.css"
+          {% endif %}
+		
+			type="text/css" >
 
 		<!-- Custom styles for this template -->
 		<link href="css/jumbotron.css" rel="stylesheet">

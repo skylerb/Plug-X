@@ -50,17 +50,19 @@
 			  <a class="navbar-brand" href="http://skylerbeckman.com/Plug-X">Plug X</a>
 			</div>
 			<div class="navbar-collapse collapse">
-			  <ul class="nav navbar-nav">
-				<li><a href="#install">Installation</a></li>
-				<li><a href="#tips">Tips & Tricks</a></li>
-				<li><a href="#upcoming">Roadmap</a></li>
-				<li><a href="#credits">Credits</a></li>
-			  </ul>
-			  <ul class="nav navbar-nav navbar-right">
-				<li><a href="log/">Changelog</a></li>
-				<li><a href="docs/">Documentation</a></li>
-				<li><a href="code/">Code</a></li>
-			  </ul>
+				{% if page.title == "Home" %}
+				  <ul class="nav navbar-nav">
+					<li><a href="#install">Installation</a></li>
+					<li><a href="#tips">Tips & Tricks</a></li>
+					<li><a href="#upcoming">Roadmap</a></li>
+					<li><a href="#credits">Credits</a></li>
+				  </ul>
+				{% endif %}
+				<ul class="nav navbar-nav navbar-right">
+					<li><a href="log/">Changelog</a></li>
+					<li><a href="docs/">Documentation</a></li>
+					<li><a href="code/">Code</a></li>
+				</ul>
 			</div><!--/.nav-collapse -->
 		  </div>
 		</div>

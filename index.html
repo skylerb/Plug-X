@@ -16,19 +16,19 @@
   <body>
     <div class="wrapper">
       <header>
-        <h1><img src="/images/logo.png" /></h1>
-        <p>Advanced features for Plud.DJ!</p>
-        <p class="view"><a href="https://chrome.google.com/webstore/detail/plug-x/effeahbhlcfhmgljedehdfjpkgmachjg">View the extension on Google Web Store <small>Plug X</small></a></p>
-        <ul>
-          <li><a href="https://github.com/orderedlist/minimal/zipball/master">Download <strong>ZIP File</strong></a></li>
-          <li><a href="https://github.com/orderedlist/minimal/tarball/master">Download <strong>TAR Ball</strong></a></li>
-          <li><a href="http://github.com/orderedlist/minimal">Fork On <strong>GitHub</strong></a></li>
-        </ul>
+        <h1><img src="images/logo.png" /></h1>
+        <p><b><i>Advanced features for Plud.DJ!</i></b></p>
+        <p class="view"><a href="https://chrome.google.com/webstore/detail/plug-x/effeahbhlcfhmgljedehdfjpkgmachjg">View the extension on Google Web Store</a></p>
+        <button onclick="chrome.webstore.install()" id="install-button">Add to Chrome</button>
+		<script>
+		if (chrome.app.isInstalled) {
+		  document.getElementById('install-button').style.display = 'none';
+		}
+		</script>
       </header>
       <section>
         <h1>Plug X</h1>
-        <p><em>View the <a href="http://github.github.com/github-flavored-markdown/sample_content.html">source of this content</a>.</em></p>
-        <p>Let's get the whole "linebreak" thing out of the way. The next paragraph contains two phrases separated by a single newline character:</p>
+        <p>Seamless integration allows you to supercharge Plug.DJ without scratching your head. Plug X offers the most features out of any extension on the market.</p>
         <p>Roses are red<br>Violets are blue</p>
         <p>The next paragraph has the same phrases, but now they are separated by two spaces and a newline character:</p>
         <p>Roses are <em>emphasized</em><br>Violets are <strong>strong</strong></p>
@@ -133,8 +133,8 @@ end</code></pre>
         <p>Lorem ipsizzle funky fresh i'm in the shizzle boom shackalack, consectetizzle adipiscing my shizz. Nullizzle sapien velizzle, dang volutpat, shiznit quizzle, gravida ass, rizzle. Pot get down get down tortor. Sed erizzle. Black go to hizzle dolizzle dapibizzle turpis fo shizzle my nizzle yo. Maurizzle pellentesque nibh et check it out. Bow wow wow check it out tortizzle. Pellentesque for sure rhoncizzle bow wow wow. In owned habitasse brizzle dictumst. Nizzle dapibizzle. Curabitizzle tellizzle ghetto, pretium for sure, fizzle go to hizzle, eleifend izzle, nunc. Dope suscipizzle. Integizzle boom shackalack velit ass purus.</p>
       </section>
       <footer>
-        <p>This project is maintained by <a href="http://github.com/orderedlist">Steve Smith</a></p>
-        <p><small>Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/orderedlist">orderedlist</a></small></p>
+        <p>This project is maintained by <a href="http://skylerbeckman.com">Skyler Beckman</a></p>
+        <p><small>Theme by <a href="https://github.com/orderedlist">orderedlist</a></small></p>
       </footer>
     </div>
     <script src="javascripts/scale.fix.js"></script>

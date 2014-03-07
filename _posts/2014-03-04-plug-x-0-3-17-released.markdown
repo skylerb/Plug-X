@@ -9,3 +9,5 @@ version: 0.3.17
 Plug.DJ update fix
 
 New commands
+- /stream on
+- /stream off

@@ -7,5 +7,6 @@ version: 0.1.7
 ---
 
 Minor bug fixes for:
+
 - Chat Images
 - Settings storage

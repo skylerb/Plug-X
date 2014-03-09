@@ -7,9 +7,13 @@ version: 0.3.18
 ---
 
 Friends List
+
 Mod Commands
+
 DJ Button Added Back to Popout Chat
+
 More UI Color Options
+
 Alert When Next DJ In Waitlist (Position 1)
 
 Bug Fixes
